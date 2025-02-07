@@ -842,3 +842,42 @@ largeNumber = processNumber(number)
 
 n = sum(largeNumber)
 print(str(n)[:10])
+
+# Collatz number Problem 14
+class Collatz:
+  def __init__(self):
+    self.lengths = {}
+
+  def get_collatz(self, num):
+
+    if num <= 2:
+      return num
+
+
+    if num in self.lengths:
+      return self.lengths[num]
+
+    chain_length_at_num = 0
+
+    if num % 2 == 0:
+      chain_length_at_num = self.get_collatz(num // 2) + 1
+    else:
+      chain_length_at_num = self.get_collatz((num * 3) + 1) + 1
+
+    self.lengths[num] = chain_length_at_num
+
+    return self.lengths[num]
+
+collatz = Collatz()
+
+for i in range(1000000, 0, -1):
+  current_collatz = collatz.get_collatz(i)
+
+max_chain = float('-inf')
+max_chain_number = 0
+for num, length in collatz.lengths.items():
+  if max_chain < length:
+    max_chain = length
+    max_chain_number = num
+
+print(max_chain_number)
