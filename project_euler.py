@@ -1,4 +1,5 @@
 from collections import defaultdict
+import numpy as np
 
 # Problem 2 (Fibonacci)
 """
