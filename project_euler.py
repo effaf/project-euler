@@ -1,6 +1,5 @@
 from collections import defaultdict
 from .helpers import Collatz
-import numpy as np
 
 # Problem 2 (Fibonacci)
 
@@ -74,7 +73,7 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 Find the largest palindrome made from the product of two 3-digit numbers
 '''
 
-def reverseNum(num: int) -> int:
+def reverse_number(num: int) -> int:
     """
     Reverse a number
 
