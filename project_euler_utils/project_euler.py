@@ -1,5 +1,5 @@
 from collections import defaultdict
-from .helpers import Collatz
+from ..helpers import Collatz
 
 # Problem 2 (Fibonacci)
 
