@@ -1,4 +1,3 @@
-
 class Collatz:
 
     def __init__(self):
