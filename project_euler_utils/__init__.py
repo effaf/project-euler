@@ -1,12 +1,4 @@
-"""
-Utility functions for math problems
-====================================
-
-project-euler is a package providing utility functions for solving math problems using python
-
-"""
-
-from project_euler_utils.project_euler import (
+from .project_euler import (
     get_total_positive_divisors,
     get_nth_prime,
     sum_of_primes_until_n,
@@ -21,3 +13,5 @@ from project_euler_utils.project_euler import (
     get_max_product_of_n_adjacent_digits,
     get_nth_triangle_number,
 )
+
+from ..helpers import Collatz

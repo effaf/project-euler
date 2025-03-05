@@ -1,2 +1,7 @@
 # Environment files
 .venv
+
+# Ignore distribution build artifacts
+dist/
+build/
+*.egg-info/
