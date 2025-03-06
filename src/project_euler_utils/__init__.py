@@ -6,7 +6,7 @@ project-euler is a package providing utility functions for solving math problems
 
 """
 
-from project_euler_utils.project_euler import (
+from .project_euler_utils import (
     get_total_positive_divisors,
     get_nth_prime,
     sum_of_primes_until_n,

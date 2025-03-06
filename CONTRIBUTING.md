@@ -11,7 +11,7 @@ using **NumPy** and increase their test coverage.
 ### 2. **Clone Your Fork**
    - Clone your forked repository to your local machine:
      ```bash
-     git clone https://github.com/effaf/project-euler.git
+     git clone https://github.com/effaf/project_euler_utils.git
      cd your-repo-name
      ```
 
