@@ -1,4 +1,4 @@
-## project-euler-utils
+## project_euler_utils
 
 This package is aimed to provide utility functions and solutions to project euler problems and also other 
 math related problems
@@ -6,7 +6,7 @@ math related problems
 ## Installation
 
 ```
-pip install project-euler-utils
+pip install project_euler_utils
 ```
 
 ## Contributing
