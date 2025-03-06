@@ -1,34 +1,34 @@
 # Contributing to project-euler-utils
 
-Thank you for considering contributing to this package. My focus is on inncreasing the efficiency of functions
-using **NumPy** and increase their test coverage.
+Thank you for considering contributing to this package. The focus is on inncreasing the efficiency of functions
+using **NumPy** and building  the test coverage.
 
 ## How to Contribute
 
 ### 1. **Fork the Repository**
-   - First, fork the repository by clicking on the **Fork** button at the top-right of the repository page.
+   - Fork the repository by clicking on the **Fork** button at the top-right of the repository page.
 
 ### 2. **Clone Your Fork**
    - Clone your forked repository to your local machine:
-     ```bash
+     ```
      git clone https://github.com/effaf/project_euler_utils.git
      cd your-repo-name
      ```
 
 ### 3. **Create a New Branch**
-   - Always create a new branch for each feature or fix:
+   - Create a new branch for your changes:
      ```bash
      git checkout -b improve-efficiency
      ```
 
 ### 4. **Make Changes**
-   - **Improve efficiency**: Use **NumPy** to optimize any parts of the code that are computationally expensive. If you're unsure, look for **loops** or **vectorized operations** that could benefit from NumPy.
+
+   - **Improve efficiency**: Use **NumPy** to optimize any parts of the code that are computationally expensive.
    - **Add tests**: Write tests for the new or existing functions. 
    
-   I currently do not have pytest as a dependency, but recommend using pytest for developing tests.
-
+   I currently do not have pytest as a dependency but recommend using pytest for developing tests.
      - Tests should be added in the `tests/` directory.
-     - Make sure all tests pass before submitting.
+     - Make sure all tests pass before submitting the pull request
 
 ### 5. **Run Tests**
    - Before submitting, make sure all tests pass:
@@ -51,10 +51,9 @@ using **NumPy** and increase their test coverage.
 
 ### 8. **Open a Pull Request**
    - Go to the original repository and open a **pull request** from your fork's `improve-efficiency` branch to `main`.
-   - In the pull request description, explain what you did and the impact it will have (e.g., improved performance with NumPy, added coverage with new tests).
+   - In the pull request description, explain what you did and the impact it will have.
 
 
-## Thank You!
 Appreciate your contributions to make this package better!
 
-Contact - shlok.kothari@gmail.com (for any questions)
+Email - shlok.kothari@gmail.com (for any concerns)
